@@ -1,0 +1,211 @@
+* {
+    text-decoration: none;
+    margin: 0 px;
+    padding: 0 px;
+}
+
+body {
+    margin: 0 px;
+    padding: 0 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1150px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #16FF00;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:3px solid #FFED00;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 18px 0px 18px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.kolom {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.kolom .deskripsi {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #FFED00;
+}
+
+.text-judul{
+    position: absolute;
+    color: #16FF00;
+    font-size: 85px;
+    top: 90px;
+    left: 5%;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 550;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    color: #16FF00;
+    width: 90%;
+    line-height: 60px;
+}
+
+a.tbl-biru1 {
+    background: #16FF00;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding: 8px 12px 8px 12px;
+    color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru1:hover {
+    background: #FFED00;
+    text-decoration: none;
+}
+
+a.tbl-biru2 {
+    background: #16FF00;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding: 8px 12px 8px 12px;
+    color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru2:hover {
+    background: #FFED00;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FFED00;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 12px 20px 12px 20px;
+    color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #16FF00;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.image{
+    position: absolute;
+    top: 750px;
+    left: 45%;
+}
+
+.tengah{
+    text-align: center;
+    width: 95%;
+}
+
+.sponsor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5px;
+}
+
+.sponsor-logo{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sponsor-logo-1 img{
+    width: 150px;
+    height: 40%;
+    margin-left: 5px;
+}
+
+.sponsor-logo-2 img{
+    width: 170px;
+    height: 30%;
+    margin-left: 25px;
+}
+
+.sponsor-logo-3 img{
+    width: 150px;
+    height: 30%;
+    margin-left: 25px;
+}
+
+.sponsor-logo-4 img{
+    width: 160px;
+    height: 35%;
+    margin-left: 25px;
+}
+
+.sponsor-logo-5 img{
+    width: 160px;
+    height: 27px;
+    margin-left: 25px;
+}
